@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Teko:300,400,500,600,700&display=swap");
 
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 .white-bg {
   background: #ffffff
 }
@@ -21,7 +26,7 @@
 }
 
 .theme-bg {
-  background: #00bbff
+  background: #00bbff;
 }
 
 .brand-bg {
@@ -7149,11 +7154,9 @@ b, sup, sub, u, del {
 #section-WhoAreWe-background-color {
   background-color: #00bbff;
 }
-
 svg{
   font-family: 'Barlow', sans-serif;
   font-weight:900;
-
 }
 #SparkleVideo {
   -webkit-clip-path: url(#clip);
@@ -7166,4 +7169,8 @@ svg{
   height:100%;
   width:100%;
   padding:7%;
+  min-height:30vh;
+  width:22rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+  display:flex;
 }
