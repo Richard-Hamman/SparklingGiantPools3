@@ -414,7 +414,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #00bbff;
+  background: #1f2b7b;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -2771,7 +2771,7 @@ hr {
 
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #00bbff
+  color: #1f2b7b
 }
 
 .slicknav_menu {
