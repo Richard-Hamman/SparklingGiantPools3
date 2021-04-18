@@ -2685,6 +2685,12 @@ hr {
 .main-header .logo .small-logo {
   display: none
 }
+.main-header .logo img {
+  margin-left: 20%;
+  margin-bottom: 10%;
+  width: 80%;
+  height: 60%;
+}
 
 @media (max-width: 575px) {
   .main-header .logo .small-logo {
@@ -4236,6 +4242,11 @@ hr {
 
 .footer-area .footer-logo {
   margin-bottom: 30px
+}
+.footer-logo img {
+  margin: 20px;
+  width: 85%;
+  height: 35%;
 }
 
 .footer-area .footer-pera .info1 {
