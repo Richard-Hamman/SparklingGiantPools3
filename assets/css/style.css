@@ -414,7 +414,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #0048ff;
+  background: #00bbff;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -1980,7 +1980,7 @@ hr {
 }
 
 .preloader .preloader-img img {
-  max-width: 55px
+  max-width: 85px
 }
 
 .preloader .pere-text strong {
