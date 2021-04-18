@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Teko:300,400,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Barlow:200,300,400,500,600,700,800,900|Teko:300,400,500,600,700,800,900&display=swap");
 
 * {
   margin:0;
@@ -414,7 +414,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #e25311;
+  background: #0048ff;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
