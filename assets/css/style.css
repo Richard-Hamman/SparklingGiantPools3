@@ -414,7 +414,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #1f2b7b;
+  background: #e25311;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -1980,7 +1980,7 @@ hr {
 }
 
 .preloader .preloader-img img {
-  max-width: 85px
+  max-width: 55px
 }
 
 .preloader .pere-text strong {
@@ -2685,12 +2685,6 @@ hr {
 .main-header .logo .small-logo {
   display: none
 }
-.main-header .logo img {
-  margin-left: 20%;
-  margin-bottom: 10%;
-  width: 80%;
-  height: 60%;
-}
 
 @media (max-width: 575px) {
   .main-header .logo .small-logo {
@@ -2771,7 +2765,7 @@ hr {
 
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #1f2b7b
+  color: #00bbff
 }
 
 .slicknav_menu {
@@ -4242,11 +4236,6 @@ hr {
 
 .footer-area .footer-logo {
   margin-bottom: 30px
-}
-.footer-logo img {
-  margin: 20px;
-  width: 85%;
-  height: 35%;
 }
 
 .footer-area .footer-pera .info1 {
