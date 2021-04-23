@@ -4,6 +4,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 .white-bg {
   background: #ffffff
@@ -414,7 +415,7 @@ hr {
   top: 0;
   width: 101%;
   height: 101%;
-  background: #e25311;
+  background: #1f2b7b;
   z-index: 1;
   transition: transform 0.5s;
   transition-timing-function: ease;
@@ -1980,7 +1981,7 @@ hr {
 }
 
 .preloader .preloader-img img {
-  max-width: 55px
+  max-width: 85px
 }
 
 .preloader .pere-text strong {
@@ -2685,10 +2686,16 @@ hr {
 .main-header .logo .small-logo {
   display: none
 }
+.main-header .logo img {
+  margin-left: 20%;
+  margin-bottom: 10%;
+  max-width: 130px;
+  max-height: 130px;
+}
 
 @media (max-width: 575px) {
   .main-header .logo .small-logo {
-    display: unset
+    display: none
   }
 }
 
@@ -2765,7 +2772,7 @@ hr {
 
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
-  color: #00bbff
+  color: #1f2b7b
 }
 
 .slicknav_menu {
@@ -4236,6 +4243,11 @@ hr {
 
 .footer-area .footer-logo {
   margin-bottom: 30px
+}
+.footer-logo img {
+  margin: 20px;
+  max-width: 130px;
+  max-height: 130px;
 }
 
 .footer-area .footer-pera .info1 {
