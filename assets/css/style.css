@@ -517,7 +517,16 @@ hr {
 .breadcrumb>.active {
   color: #888
 }
-
+.card {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+}
 #scrollUp {
   background: #00bbff;
   height: 50px;
