@@ -2147,8 +2147,8 @@ hr {
 }
 
 .footer-padding {
-  padding-top: 130px;
-  padding-bottom: 100px
+  padding-top: 100px;
+  padding-bottom: 80px
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -2687,10 +2687,14 @@ hr {
   display: none
 }
 .main-header .logo img {
-  margin-left: 20%;
-  margin-bottom: 10%;
-  max-width: 130px;
-  max-height: 130px;
+  padding: 2px;
+  position: relative;
+  max-width: 180px;
+  max-height: 150px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 575px) {
@@ -4245,9 +4249,12 @@ hr {
   margin-bottom: 30px
 }
 .footer-logo img {
-  margin: 20px;
-  max-width: 130px;
-  max-height: 130px;
+  max-width: 250px;
+  max-height: 210px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-area .footer-pera .info1 {
