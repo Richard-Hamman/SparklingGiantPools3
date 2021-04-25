@@ -2245,7 +2245,14 @@ hr {
   position: absolute;
   transform: translateY(-114%);
   right: 0;
-  left: 12px
+  left: 12px;
+  transition: 2s;
+}
+.section-tittle span.back-text:hover {
+  text-shadow: 0px 10px 20px #00bbff;
+}
+.textAlign {
+  display: flex;
 }
 
 @media (max-width: 575px) {
