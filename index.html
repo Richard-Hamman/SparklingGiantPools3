@@ -157,22 +157,22 @@
             </div>
           </div>
         </div>
-        <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
+        <!-- <div class="single-slider  hero-overly slider-height d-flex align-items-center" data-background="assets/img/hero/h1_hero.jpg">
           <div class="container">
             <div class="row">
               <div class="col-lg-11">
                 <div class="hero__caption">
-                  <!-- <div class="hero-text1">
+                  <div class="hero-text1">
                                         <span data-animation="fadeInUp" data-delay=".3s">We Pride Ourselves On Customer Service</span>
-                                    </div> -->
-                  <!-- <h1 data-animation="fadeInUp" data-delay=".5s">sparkling</h1> -->
+                                    </div>
+                  <h1 data-animation="fadeInUp" data-delay=".5s">sparkling</h1>
                   <div class="stock-text" data-animation="fadeInUp" data-delay=".8s">
                     <h2>Giant Pools</h2>
                     <h2>Giant Pools</h2>
                   </div>
-                  <!-- <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
+                  <div class="hero-text2 mt-110" data-animation="fadeInUp" data-delay=".9s">
                                         <span><a href="services.html">Quality First</a></span>
-                                    </div> -->
+                                    </div>
                   <div class="hero-text1">
                     <span data-animation="fadeInUp" data-delay=".3s">established 2010</span>
                   </div>
@@ -183,7 +183,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- slider Area End-->
@@ -352,7 +352,7 @@
           <div class="support-caption">
             <p class="pera-top">We are a family run business that specialises in Swimming Pools and Construction. From general repairs and maintenance to new developments.<br>We pride ourselves in our fast and friendly service, and the expertise of our staff is unparalleled.</p>
             <p>Sparkling Giant pools is a trusted service provider of the Houghton Hotel and Golf Estate.</p>
-            <p>We can supply you with various pool care and maintenance products and equipment such as water balancing products, pool pumps, pipes and accessories and much more.  Call us on 072 355 3520 or 064 474 0206 for more information.</p>
+            <p>We can supply you with various pool care and maintenance products and equipment such as water balancing products, pool pumps, pipes and accessories and much more.  Call Jedd Van Niekerk on 072 355 3520 for more information.</p>
             <!-- <a href="about.html" class="btn red-btn2">read more</a> -->
           </div>
         </div>
@@ -1171,6 +1171,17 @@
 
 
   <!-- JS here -->
+  <div class="cursor">
+  </div>
+  <div class="cursor2">
+  </div>
+  <script type="text/javascript">
+    var cursor = document.querySelector(".cursor");
+    var cursor2 = document.querySelector(".cursor2");
+    document.addEventListener("mousemove",function(e){
+      cursor.style.cssText = cursor2.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+    });
+  </script>
 
   <!-- All JS Custom Plugins Link Here here -->
   <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
@@ -1211,8 +1222,7 @@
   <script src="./assets/js/plugins.js"></script>
   <script src="./assets/js/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-  <script src="tilt.jquery.js" type="text/javascript">
-  </script>
+  <script src="tilt.jquery.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(document).ready(function(){
         $('.card').tilt({
@@ -1222,6 +1232,8 @@
         })
     })
   </script>
+
+
 
 </body>
 
