@@ -3129,7 +3129,7 @@ hr {
   display: none
 }
 
-.main-header .logo img {
+/* .main-header .logo img {
   padding: 2px;
   position: relative;
   max-width: 180px;
@@ -3138,12 +3138,14 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 @media (max-width: 575px) {
   .main-header .logo .small-logo {
     display: unset
-
+  }
+  .main-header .logo .small-logo img {
+    width: 70px;
   }
 }
 @media (max-width: 575px) {
