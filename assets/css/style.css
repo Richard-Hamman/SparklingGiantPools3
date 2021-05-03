@@ -97,7 +97,7 @@
   left: 0;
   top: 12px;
   height: 2px;
-  width: 5px;
+  width: 45px;
   background-color: #00bbff;
   content: "";
 }
@@ -3143,7 +3143,7 @@ hr {
 @media (max-width: 575px) {
   .main-header .logo .small-logo {
     display: unset
-    
+
   }
 }
 @media (max-width: 575px) {
