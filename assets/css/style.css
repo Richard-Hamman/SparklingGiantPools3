@@ -3191,6 +3191,20 @@ hr {
     padding-left: 50px;
   }
 }
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-tittle.quickLinks-footer {
+    margin-top:50px;
+    margin-left: 80px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .footer-logo img {
+    margin-top:50px;
+    margin-right: 10%;
+  }
+}
+
+
 @media (max-width: 575px) {
   .main-header .logo .big-logo {
     display: none
