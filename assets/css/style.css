@@ -3153,7 +3153,25 @@ hr {
   .footer-tittle.contact-footer{
     padding: 50px;
   }
+}
+/* affilite icons on the footer */
+.affiliate-heading {
+  text-align: center;
+}
+.affiliate-icons {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.affiliate-icons .affiliate-icons-logos {
+  padding: 2% 2%;
+}
 
+.affiliate-icons .affiliate-icons-logos img {
+  height: 115px;
+  width: 117px;
+  border-radius: 10px;
 }
 
 @media (min-width: 1200px) and (max-width: 1600px) {
@@ -3295,7 +3313,8 @@ hr {
 .slider-height2 {
   min-height: 590px;
   background-repeat: no-repeat;
-  background-position: center center
+  background-position: center;
+  background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
