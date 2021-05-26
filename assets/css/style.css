@@ -3173,6 +3173,48 @@ hr {
   width: 117px;
   border-radius: 10px;
 }
+/* affiliates ticker styling begins */
+.slider {
+  background-color:white;
+  width: 1260px;
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 10px 20px;
+}
+.slider::before, .slider::after {
+  width: 200px;
+  height: 100px;
+  background: linear-gradient(to right, white 0%,rgba(255, 255, 255, 0) 100%);
+}
+.slider::before {
+  top:0;
+  left:0;
+}
+.slider::after {
+  top:0;
+  right: 0;
+  transform: rotateZ(180deg);
+}
+.slider .slider-track {
+  display: flex;
+  width: calc(250px * 14);
+  animation: scroll 20s infinite linear;
+}
+.slider .slide img {
+  width: 250px;
+  height: 100px;
+}
+@keyframes scroll {
+  0%{
+    transform: translateX(0%);
+  }
+  100%{
+    transform: translateX(calc(-250px * 7));
+  }
+}
+/* affiliates ticker styling ends */
 
 @media (min-width: 1200px) and (max-width: 1600px) {
   .big-logo img {
