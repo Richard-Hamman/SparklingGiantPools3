@@ -3219,18 +3219,24 @@ hr {
 @media (min-width: 1200px) and (max-width: 1600px) {
   .big-logo img {
     width: 120px;
+
   }
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   .big-logo img {
     width: 120px;
     padding-left: 50px;
+
   }
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .big-logo img {
+    width: 130px;
+  }
+}
+@media (min-width: 575px) and (max-width: 768px) {
+  .big-logo img {
     width: 120px;
-    padding-left: 50px;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
