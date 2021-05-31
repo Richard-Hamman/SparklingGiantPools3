@@ -3415,7 +3415,30 @@ hr {
   margin-left: 27px;
   padding-top: 150px
 }
-
+.houtonLogo {
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+}
+.houtonLogo a {
+  text-decoration: none;
+}
+.houtonLogo img {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  bottom:15px;
+  right: 15px;
+  border-radius: 5px;
+}
+.houtonLogo-swimmingPoolsPicture img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom:160px;
+  right: 30px;
+  border-radius: 5px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .slider-area .hero__caption {
     padding-top: 70px
