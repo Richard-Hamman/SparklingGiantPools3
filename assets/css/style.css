@@ -3169,15 +3169,15 @@ hr {
 }
 
 .affiliate-icons .affiliate-icons-logos img {
-  height: 115px;
+  height: 120px;
   width: 117px;
   border-radius: 10px;
 }
 /* affiliates ticker styling begins */
 .slider {
   background-color:white;
-  width: 1260px;
-  height: 100px;
+  width: 1300px;
+  height: 120px;
   overflow: hidden;
   position: relative;
   margin: auto;
@@ -3200,18 +3200,19 @@ hr {
 .slider .slider-track {
   display: flex;
   width: calc(250px * 14);
-  animation: scroll 20s infinite linear;
+  animation: scroll 60s infinite linear;
 }
 .slider .slide img {
   width: 250px;
-  height: 100px;
+  height: 115px;
+  margin:0 30px;
 }
 @keyframes scroll {
   0%{
     transform: translateX(0%);
   }
   100%{
-    transform: translateX(calc(-250px * 7));
+    transform: translateX(calc(-250px * 24));
   }
 }
 /* affiliates ticker styling ends */
